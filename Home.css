@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+}
+
+.home-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-left h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+.home-left p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+.home-left button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    border-radius: 40px;
+
+    margin-top: 10%;
+    padding: 30px 50px;
+}
+
+.home-rigth img{
+    height: 70vh;
+    padding-left: 30%;
+}
